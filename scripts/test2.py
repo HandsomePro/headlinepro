@@ -13,3 +13,6 @@ class TestLogin:
     #     print("a")
     def test_b(self):
         print("b")
+    def test_fail(self):
+        print('断言失败测试')
+        assert False
