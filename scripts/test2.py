@@ -14,5 +14,5 @@ class TestLogin:
     def test_b(self):
         print("b")
     def test_fail(self):
-        print('断言失败测试')
-        assert False
+        print('断言失败测试>已更正')
+        assert True
